@@ -1,0 +1,24 @@
+<resources>
+    <string name="commons_empty_text">Tidak ada data</string>
+    <string name="ignore_list_toast_add">Ditambahkan ke daftar abaikan</string>
+    <string name="ignore_list_toast_remove">Dihapus dari daftar abaikan</string>
+    <string name="menu_search">Cari</string>
+    <string name="activity_ignorelist_title">Daftar Abaikan</string>
+    <string name="commons_device_info">Info ponsel</string>
+    <string name="commons_device_info_phone">Telepon</string>
+    <string name="commons_device_info_serial">Serial</string>
+    <string name="commons_device_info_brand">Merek</string>
+    <string name="commons_device_info_cpu">Suhu CPU</string>
+    <string name="commons_device_info_hardware">Perangkat keras</string>
+    <string name="commons_device_info_screen">Resolusi layar</string>
+    <string name="commons_device_info_capacity">Kapasitas</string>
+    <string name="commons_device_info_ram">Total RAM</string>
+    <string name="commons_device_info_avai_ram">RAM yang tersedia</string>
+    <string name="commons_device_info_storage">Penyimpanan internal</string>
+    <string name="commons_device_info_avai_storage">Penyimpanan yang tersedia</string>
+    <string name="commons_permission_request_desc">"Karena izin pembatasan dari Android 8, kami membutuhkan Anda memberikan izin penggunaan App untuk bekerja dengan baik.Kami hanya menggunakan izin ini untuk daftar menjalankan tugas. Silakan menemukan aplikasi kami untuk mengaktifkannya."</string>
+    <string name="commons_permission_request_title">Izin tips</string>
+    <string name="commons_permission_request_ok">Oke</string>
+    <string name="commons_permission_request_got_it">Mengerti</string>
+    <string name="commons_no_app_found">Tidak ada aplikasi</string>
+</resources>

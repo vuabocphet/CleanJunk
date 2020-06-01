@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:paddingBottom="@dimen/dp14"
+    android:paddingLeft="@dimen/dp20"
+    android:paddingRight="@dimen/dp20"
+    android:paddingTop="@dimen/dp14">
+
+    <ImageView
+        android:id="@+id/ignore_task_icon"
+        android:layout_width="@dimen/ignore_size_icon"
+        android:layout_height="@dimen/ignore_size_icon"
+        android:layout_centerVertical="true" />
+
+    <com.appplatform.commons.views.AppPlatFormTextView
+        android:id="@+id/ignore_task_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dp12"
+        android:layout_marginRight="@dimen/dp12"
+        android:layout_toLeftOf="@+id/ignore_task_select"
+        android:layout_toRightOf="@+id/ignore_task_icon"
+        android:textColor="@color/commons_device_infotext"
+        android:textSize="@dimen/textsize_20" />
+
+    <ImageView
+        android:id="@+id/ignore_task_select"
+        android:layout_width="@dimen/ignore_size_icon_lock"
+        android:layout_height="@dimen/ignore_size_icon_lock"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ignorelist_unignore" />
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="commons_empty_text">Aucune donnée</string>
+    <string name="ignore_list_toast_add">Ajouté pour ignorer la liste</string>
+    <string name="ignore_list_toast_remove">Retiré de la liste des ignorés</string>
+    <string name="menu_search">Recherche</string>
+    <string name="activity_ignorelist_title">Liste des ignorés</string>
+    <string name="commons_device_info">Infos sur l’appareil</string>
+    <string name="commons_device_info_phone">Téléphone</string>
+    <string name="commons_device_info_serial">Serial</string>
+    <string name="commons_device_info_brand">De marque</string>
+    <string name="commons_device_info_cpu">Température du CPU</string>
+    <string name="commons_device_info_hardware">Quincaillerie</string>
+    <string name="commons_device_info_screen">Résolution d’écran</string>
+    <string name="commons_device_info_capacity">Capacité</string>
+    <string name="commons_device_info_ram">RAM total</string>
+    <string name="commons_device_info_avai_ram">Mémoire vive disponible</string>
+    <string name="commons_device_info_storage">Stockage interne</string>
+    <string name="commons_device_info_avai_storage">Stockage disponible</string>
+    <string name="commons_permission_request_desc">« En raison de la restriction de l’autorisation de 8 Android, nous avons besoin de vous accorder l’autorisation d’utilisation de l’App fonctionne bien.Nous utilisons uniquement cette autorisation pour obtenir la liste des tâches en cours d’exécution. Veuillez trouver notre application afin qu’elle ».</string>
+    <string name="commons_permission_request_title">Conseils de permission</string>
+    <string name="commons_permission_request_ok">bien</string>
+    <string name="commons_permission_request_got_it">compris</string>
+    <string name="commons_no_app_found">Aucune demande n\'a été trouvée</string>
+</resources>

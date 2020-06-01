@@ -1,0 +1,24 @@
+<resources>
+    <string name="commons_empty_text">데이터 없음</string>
+    <string name="ignore_list_toast_add">무시 목록에 추가</string>
+    <string name="ignore_list_toast_remove">무시 목록에서 제거</string>
+    <string name="menu_search">검색</string>
+    <string name="activity_ignorelist_title">무시 목록</string>
+    <string name="commons_device_info">장치 정보</string>
+    <string name="commons_device_info_phone">전화</string>
+    <string name="commons_device_info_serial">직렬</string>
+    <string name="commons_device_info_brand">브랜드</string>
+    <string name="commons_device_info_cpu">CPU 온도</string>
+    <string name="commons_device_info_hardware">하드웨어</string>
+    <string name="commons_device_info_screen">화면 해상도</string>
+    <string name="commons_device_info_capacity">용량</string>
+    <string name="commons_device_info_ram">총 RAM</string>
+    <string name="commons_device_info_avai_ram">사용 가능한 RAM</string>
+    <string name="commons_device_info_storage">내부 스토리지</string>
+    <string name="commons_device_info_avai_storage">사용 가능한 저장소</string>
+    <string name="commons_permission_request_desc">"안 드 로이드 8에서 권한 제한 때문에 우리는 당신 필요로 잘 작동 하도록 응용 프로그램 사용 권한을 부여.우리만 작업을 실행 하는 목록에 대 한이 권한을 사용 합니다. 제발 그것을 수 있도록 우리의 애플 리 케이 션을 찾으십시오. "</string>
+    <string name="commons_permission_request_title">권한 팁</string>
+    <string name="commons_permission_request_ok">그래</string>
+    <string name="commons_permission_request_got_it">알았어요</string>
+    <string name="commons_no_app_found">응용 프로그램을 찾을 수 없음</string>
+</resources>

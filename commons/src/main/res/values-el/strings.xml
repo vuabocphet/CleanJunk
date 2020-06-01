@@ -1,0 +1,24 @@
+<resources>
+    <string name="commons_empty_text">Δεν υπάρχουν δεδομένα</string>
+    <string name="ignore_list_toast_add">Προστεθεί στη λίστα αγνόησης</string>
+    <string name="ignore_list_toast_remove">Αφαιρεθεί από τη λίστα αγνόησης</string>
+    <string name="menu_search">Αναζήτηση</string>
+    <string name="activity_ignorelist_title">Λίστα αγνόησης</string>
+    <string name="commons_device_info">Πληροφορίες συσκευής</string>
+    <string name="commons_device_info_phone">Τηλέφωνο</string>
+    <string name="commons_device_info_serial">Σειριακή</string>
+    <string name="commons_device_info_brand">Εμπορικό σήμα</string>
+    <string name="commons_device_info_cpu">Θερμοκρασία του Επεξεργαστή</string>
+    <string name="commons_device_info_hardware">Υλικού</string>
+    <string name="commons_device_info_screen">Ανάλυση οθόνης</string>
+    <string name="commons_device_info_capacity">Χωρητικότητα</string>
+    <string name="commons_device_info_ram">Συνολική μνήμη RAM</string>
+    <string name="commons_device_info_avai_ram">Διαθέσιμη μνήμη RAM</string>
+    <string name="commons_device_info_storage">Εσωτερικός χώρος αποθήκευσης</string>
+    <string name="commons_device_info_avai_storage">Διαθέσιμος χώρος αποθήκευσης</string>
+    <string name="commons_permission_request_desc">«Λόγω περιορισμού δικαίωμα από το Android 8, εμείς χρειάζεται χορηγήσει άδεια χρήση εφαρμογών να λειτουργήσει καλά.Χρησιμοποιούμε μόνο το δικαίωμα αυτό για καταχώριση εκτελούμενες εργασίες. Παρακαλώ βρείτε app μας για να το ενεργοποιήσετε.»</string>
+    <string name="commons_permission_request_title">Προτάσεις για την άδεια</string>
+    <string name="commons_permission_request_ok">Εντάξει</string>
+    <string name="commons_permission_request_got_it">Το έπιασα</string>
+    <string name="commons_no_app_found">Δεν βρέθηκε εφαρμογή</string>
+</resources>

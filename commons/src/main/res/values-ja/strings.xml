@@ -1,0 +1,24 @@
+<resources>
+    <string name="commons_empty_text">データがありません。</string>
+    <string name="ignore_list_toast_add">無視リストに追加</string>
+    <string name="ignore_list_toast_remove">無視リストから削除</string>
+    <string name="menu_search">検索</string>
+    <string name="activity_ignorelist_title">無視リスト</string>
+    <string name="commons_device_info">デバイス情報</string>
+    <string name="commons_device_info_phone">電話</string>
+    <string name="commons_device_info_serial">シリアル</string>
+    <string name="commons_device_info_brand">ブランド</string>
+    <string name="commons_device_info_cpu">CPU の温度</string>
+    <string name="commons_device_info_hardware">ハードウェア</string>
+    <string name="commons_device_info_screen">画面の解像度</string>
+    <string name="commons_device_info_capacity">容量</string>
+    <string name="commons_device_info_ram">RAM の合計</string>
+    <string name="commons_device_info_avai_ram">利用可能な RAM</string>
+    <string name="commons_device_info_storage">内部ストレージ</string>
+    <string name="commons_device_info_avai_storage">利用可能なストレージ</string>
+    <string name="commons_permission_request_desc">「アンドロイド 8 からアクセス許可制限のため私たちあなたを必要うまく動作するアプリ使用を許可します。このアクセス許可はリストのタスクを実行するためにのみ利用いたします。ご覧ください私たちのアプリを有効にする。」</string>
+    <string name="commons_permission_request_title">アクセス許可のヒント</string>
+    <string name="commons_permission_request_ok">わかりました</string>
+    <string name="commons_permission_request_got_it">わかった</string>
+    <string name="commons_no_app_found">アプリケーションが見つかりません</string>
+</resources>

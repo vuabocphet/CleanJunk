@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Commons</string>
+
+    <string name="byte_short" translatable="false">B</string>
+    <string name="gigabyte_short" translatable="false">GB</string>
+    <string name="kilobyte_short" translatable="false">KB</string>
+    <string name="megabyte_short" translatable="false">MB</string>
+    <string name="petabyte_short" translatable="false">PB</string>
+    <string name="terabyte_short" translatable="false">TB</string>
+    <string name="fileSizeSuffix" translatable="false">%1$s %2$s</string>
+    <string name="common_celsius" translatable="false">%1$s°C</string>
+
+    <string name="commons_empty_text">No data</string>
+    <string name="commons_no_app_found">No app found</string>
+    <string name="ignore_list_toast_add">Added to Ignore List</string>
+    <string name="ignore_list_toast_remove">Removed from Ignore List</string>
+    <string name="menu_search">Search</string>
+    <string name="activity_ignorelist_title">Ignore List</string>
+    <string name="commons_device_info">Device Info</string>
+    <string name="commons_device_info_phone">Phone</string>
+    <string name="commons_device_info_serial">Serial</string>
+    <string name="commons_device_info_brand">Brand</string>
+    <string name="commons_device_info_cpu">CPU Temperature</string>
+    <string name="commons_device_info_hardware">Hardware</string>
+    <string name="commons_device_info_screen">Screen Resolution</string>
+    <string name="commons_device_info_capacity">Capacity</string>
+    <string name="commons_device_info_ram">Total RAM</string>
+    <string name="commons_device_info_avai_ram">Available RAM</string>
+    <string name="commons_device_info_storage">Internal Storage</string>
+    <string name="commons_device_info_avai_storage">Available Storage</string>
+    <string name="commons_permission_request_desc">"Because of permission restriction from Android 8, We needs you grant App Usage permission to work well.
+        We only use this permission for listing running tasks. Please find our app to enable it."</string>
+    <string name="commons_permission_request_title">Permission tips</string>
+    <string name="commons_permission_request_ok">OK</string>
+    <string name="commons_permission_request_got_it">Got it</string>
+
+</resources>

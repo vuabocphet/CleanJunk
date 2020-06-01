@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="commons_mark_view">#ffffff</color>
+    <color name="commons_empty_background">#ffffff</color>
+    <color name="commons_empty_text_color">#696969</color>
+    <color name="commons_color_primary">#ffffff</color>
+    <color name="commons_color_primary_dark">#ffffff</color>
+    <color name="commons_diaphaneity_color">#00000000</color>
+    <color name="commons_device_infotext">#2b2b2b</color>
+
+    <color name="common_pms_button_bg_color">#0091EA</color>
+    <color name="common_pms_button_text_color">#ffffff</color>
+    <color name="green">#48DA89</color>
+
+    <color name="commons_gradient_view_normal_start">#1CCCFF</color>
+    <color name="commons_gradient_view_normal_end">#0E95FF</color>
+
+    <color name="commons_gradient_view_red_start">#FF8951</color>
+    <color name="commons_gradient_view_red_end">#FF2B4E</color>
+
+    <color name="commons_cook_hook_view_tick">#FFF</color>
+    <color name="commons_cook_hook_view_inner_circle">#76DCFF</color>
+    <color name="commons_cook_hook_view_first_ripple">#8FE1FD</color>
+    <color name="commons_cook_hook_view_second_ripple">#8FE1FD</color>
+
+</resources>

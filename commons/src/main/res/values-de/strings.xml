@@ -1,0 +1,25 @@
+<resources>
+    <string name="commons_empty_text">Keine Daten</string>
+    <string name="ignore_list_toast_add">Hinzugefügt, um die Liste zu ignorieren</string>
+    <string name="ignore_list_toast_remove">Ignore-Liste entfernt</string>
+    <string name="menu_search">Suche</string>
+    <string name="activity_ignorelist_title">Ignorieren-Liste</string>
+    <string name="commons_device_info">Geräte-Info</string>
+    <string name="commons_device_info_phone">Telefon</string>
+    <string name="commons_device_info_serial">Serielle</string>
+    <string name="commons_device_info_brand">Marke</string>
+    <string name="commons_device_info_cpu">CPU-Temperatur</string>
+    <string name="commons_device_info_hardware">Hardware</string>
+    <string name="commons_device_info_screen">Bildschirm-Auflösung</string>
+    <string name="commons_device_info_capacity">Kapazität</string>
+    <string name="commons_device_info_ram">Gesamt-RAM</string>
+    <string name="commons_device_info_avai_ram">Verfügbarer RAM</string>
+    <string name="commons_device_info_storage">Interner Speicher</string>
+    <string name="commons_device_info_avai_storage">Verfügbarer Speicher</string>
+    <string name="commons_permission_request_desc">"Because of permission restriction from Android 8, We needs you grant App Usage permission to work well.
+        We only use this permission for listing running tasks. Please find our app to enable it."</string>
+    <string name="commons_permission_request_title">Erlaubnis-Tipps</string>
+    <string name="commons_permission_request_ok">okay</string>
+    <string name="commons_permission_request_got_it">Ich hab es</string>
+    <string name="commons_no_app_found">Keine Anwendung gefunden</string>
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="commons_empty_text">Нет данных</string>
+    <string name="ignore_list_toast_add">Добавлено в список игнорирования</string>
+    <string name="ignore_list_toast_remove">Удалить из черного списка</string>
+    <string name="menu_search">Поиск</string>
+    <string name="activity_ignorelist_title">Черный список</string>
+    <string name="commons_device_info">Информация о приводе</string>
+    <string name="commons_device_info_phone">Телефон</string>
+    <string name="commons_device_info_serial">Последовательный</string>
+    <string name="commons_device_info_brand">Бренд</string>
+    <string name="commons_device_info_cpu">CPU Temperature</string>
+    <string name="commons_device_info_hardware">Аппаратное обеспечение</string>
+    <string name="commons_device_info_screen">Разрешение экрана</string>
+    <string name="commons_device_info_capacity">Емкость</string>
+    <string name="commons_device_info_ram">Общая память</string>
+    <string name="commons_device_info_avai_ram">Доступной оперативной памяти</string>
+    <string name="commons_device_info_storage">Емкость внутренней системы хранения</string>
+    <string name="commons_device_info_avai_storage">Доступные для хранения</string>
+    <string name="commons_permission_request_desc">«Из-за ограничения разрешений от Android 8, мы вам необходимо предоставить разрешение использования приложения работают хорошо.Мы используем только это разрешение для включения в список выполняемых задач. Вы можете найти наше приложение, чтобы включить его.»</string>
+    <string name="commons_permission_request_title">Разрешение советы</string>
+    <string name="commons_permission_request_ok">Хорошо</string>
+    <string name="commons_permission_request_got_it">понятно</string>
+    <string name="commons_no_app_found">Приложение не найдено</string>
+</resources>

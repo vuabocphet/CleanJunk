@@ -1,0 +1,45 @@
+<resources>
+<!--TextSize-->
+<dimen name="textsize_14">23.38sp</dimen>
+<dimen name="textsize_16">26.72sp</dimen>
+<dimen name="textsize_18">30.06sp</dimen>
+<dimen name="textsize_20">33.399998sp</dimen>
+<dimen name="textsize_22">36.739998sp</dimen>
+<dimen name="textsize_24">40.079998sp</dimen>
+<dimen name="textsize_28">46.76sp</dimen>
+<dimen name="textsize_30">50.1sp</dimen>
+<dimen name="textsize_32">53.44sp</dimen>
+<dimen name="textsize_36">60.12sp</dimen>
+<dimen name="textsize_34">56.78sp</dimen>
+<dimen name="textsize_40">66.799995sp</dimen>
+
+<!--SPACE-->
+<dimen name="dp2">3.34dp</dimen>
+<dimen name="dp4">6.68dp</dimen>
+<dimen name="dp6">10.0199995dp</dimen>
+<dimen name="dp8">13.36dp</dimen>
+<dimen name="dp10">16.699999dp</dimen>
+<dimen name="dp12">20.039999dp</dimen>
+<dimen name="dp14">23.38dp</dimen>
+<dimen name="dp16">26.72dp</dimen>
+<dimen name="dp18">30.06dp</dimen>
+<dimen name="dp20">33.399998dp</dimen>
+<dimen name="dp22">36.739998dp</dimen>
+<dimen name="dp24">40.079998dp</dimen>
+<dimen name="dp30">50.1dp</dimen>
+<dimen name="dp40">66.799995dp</dimen>
+<dimen name="dp50">83.5dp</dimen>
+<dimen name="dp70">116.899994dp</dimen>
+<dimen name="dp115">192.04999dp</dimen>
+<dimen name="dp150">250.5dp</dimen>
+<dimen name="dp75">125.25dp</dimen>
+<dimen name="dp100">167.0dp</dimen>
+
+<dimen name="commons_fab_size_normal">120.24dp</dimen>
+<dimen name="commons_fab_size_mini">100.2dp</dimen>
+<dimen name="commons_device_info_size">73.479996dp</dimen>
+<dimen name="commons_device_info_item_height">100.2dp</dimen>
+<dimen name="ignore_size_icon">103.54dp</dimen>
+<dimen name="ignore_size_icon_lock">46.76dp</dimen>
+<dimen name="ignore_size_icon_empty">217.09999dp</dimen>
+</resources>

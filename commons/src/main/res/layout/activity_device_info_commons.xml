@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/commons_color_primary_dark"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/commons_color_primary"
+        android:theme="@style/Commons_Toolbar">
+
+        <com.appplatform.commons.views.AppPlatFormTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/commons_device_info"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textsize_24"
+            app:textStyle="title"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commons_device_info_item_height"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp16"
+                android:paddingRight="@dimen/dp16">
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="@dimen/commons_device_info_size"
+                    android:layout_height="@dimen/commons_device_info_size"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/infomation_phone" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp12"
+                    android:layout_marginRight="@dimen/dp12"
+                    android:layout_toLeftOf="@+id/tvPhoneName"
+                    android:layout_toRightOf="@+id/image1"
+                    android:text="@string/commons_device_info_phone"
+                    android:textColor="@color/commons_device_infotext"
+                    android:textSize="@dimen/textsize_20" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:id="@+id/tvPhoneName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/textsize_18" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commons_device_info_item_height"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp16"
+                android:paddingRight="@dimen/dp16">
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="@dimen/commons_device_info_size"
+                    android:layout_height="@dimen/commons_device_info_size"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/infomation_serial" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp12"
+                    android:layout_marginRight="@dimen/dp12"
+                    android:layout_toLeftOf="@+id/tvPhoneSerial"
+                    android:layout_toRightOf="@+id/image2"
+                    android:text="@string/commons_device_info_serial"
+                    android:textColor="@color/commons_device_infotext"
+                    android:textSize="@dimen/textsize_20" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:id="@+id/tvPhoneSerial"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/textsize_18" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commons_device_info_item_height"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp16"
+                android:paddingRight="@dimen/dp16">
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="@dimen/commons_device_info_size"
+                    android:layout_height="@dimen/commons_device_info_size"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/infomation_brand" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp12"
+                    android:layout_marginRight="@dimen/dp12"
+                    android:layout_toLeftOf="@+id/tvPhoneBrand"
+                    android:layout_toRightOf="@+id/image3"
+                    android:text="@string/commons_device_info_brand"
+                    android:textColor="@color/commons_device_infotext"
+                    android:textSize="@dimen/textsize_20" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:id="@+id/tvPhoneBrand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textAllCaps="true"
+                    android:textSize="@dimen/textsize_18" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commons_device_info_item_height"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp16"
+                android:paddingRight="@dimen/dp16">
+
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="@dimen/commons_device_info_size"
+                    android:layout_height="@dimen/commons_device_info_size"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/infomation_temp" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp12"
+                    android:layout_marginRight="@dimen/dp12"
+                    android:layout_toLeftOf="@+id/tvPhoneCPU"
+                    android:layout_toRightOf="@+id/image4"
+                    android:text="@string/commons_device_info_cpu"
+                    android:textColor="@color/commons_device_infotext"
+                    android:textSize="@dimen/textsize_20" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:id="@+id/tvPhoneCPU"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/textsize_18" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commons_device_info_item_height"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp16"
+                android:paddingRight="@dimen/dp16">
+
+                <ImageView
+                    android:id="@+id/image5"
+                    android:layout_width="@dimen/commons_device_info_size"
+                    android:layout_height="@dimen/commons_device_info_size"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/infomation_hardware" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp12"
+                    android:layout_marginRight="@dimen/dp12"
+                    android:layout_toLeftOf="@+id/tvInfoHardware"
+                    android:layout_toRightOf="@+id/image5"
+                    android:text="@string/commons_device_info_hardware"
+                    android:textColor="@color/commons_device_infotext"
+                    android:textSize="@dimen/textsize_20" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:id="@+id/tvInfoHardware"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/textsize_18" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commons_device_info_item_height"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp16"
+                android:paddingRight="@dimen/dp16">
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="@dimen/commons_device_info_size"
+                    android:layout_height="@dimen/commons_device_info_size"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/infomation_resolution" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp12"
+                    android:layout_marginRight="@dimen/dp12"
+                    android:layout_toLeftOf="@+id/tvInfoScreen"
+                    android:layout_toRightOf="@+id/image6"
+                    android:text="@string/commons_device_info_screen"
+                    android:textColor="@color/commons_device_infotext"
+                    android:textSize="@dimen/textsize_20" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:id="@+id/tvInfoScreen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/textsize_18" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commons_device_info_item_height"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp16"
+                android:paddingRight="@dimen/dp16">
+
+                <ImageView
+                    android:id="@+id/image7"
+                    android:layout_width="@dimen/commons_device_info_size"
+                    android:layout_height="@dimen/commons_device_info_size"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/infomation_capacity" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp12"
+                    android:layout_marginRight="@dimen/dp12"
+                    android:layout_toLeftOf="@+id/tvInfoCapacity"
+                    android:layout_toRightOf="@+id/image7"
+                    android:text="@string/commons_device_info_capacity"
+                    android:textColor="@color/commons_device_infotext"
+                    android:textSize="@dimen/textsize_20" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:id="@+id/tvInfoCapacity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/textsize_18" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commons_device_info_item_height"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp16"
+                android:paddingRight="@dimen/dp16">
+
+                <ImageView
+                    android:id="@+id/image8"
+                    android:layout_width="@dimen/commons_device_info_size"
+                    android:layout_height="@dimen/commons_device_info_size"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/infomation_ram" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp12"
+                    android:layout_marginRight="@dimen/dp12"
+                    android:layout_toLeftOf="@+id/tvInfoRam"
+                    android:layout_toRightOf="@+id/image8"
+                    android:text="@string/commons_device_info_ram"
+                    android:textColor="@color/commons_device_infotext"
+                    android:textSize="@dimen/textsize_20" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:id="@+id/tvInfoRam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/textsize_18" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commons_device_info_item_height"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp16"
+                android:paddingRight="@dimen/dp16">
+
+                <ImageView
+                    android:id="@+id/image9"
+                    android:layout_width="@dimen/commons_device_info_size"
+                    android:layout_height="@dimen/commons_device_info_size"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/infomation_ram_2" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp12"
+                    android:layout_marginRight="@dimen/dp12"
+                    android:layout_toLeftOf="@+id/txtAvaiRam"
+                    android:layout_toRightOf="@+id/image9"
+                    android:text="@string/commons_device_info_avai_ram"
+                    android:textColor="@color/commons_device_infotext"
+                    android:textSize="@dimen/textsize_20" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:id="@+id/txtAvaiRam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/textsize_18" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commons_device_info_item_height"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp16"
+                android:paddingRight="@dimen/dp16">
+
+                <ImageView
+                    android:id="@+id/image10"
+                    android:layout_width="@dimen/commons_device_info_size"
+                    android:layout_height="@dimen/commons_device_info_size"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/infomation_folder_1" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp12"
+                    android:layout_marginRight="@dimen/dp12"
+                    android:layout_toLeftOf="@+id/txtStorage"
+                    android:layout_toRightOf="@+id/image10"
+                    android:text="@string/commons_device_info_storage"
+                    android:textColor="@color/commons_device_infotext"
+                    android:textSize="@dimen/textsize_20" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:id="@+id/txtStorage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/textsize_18" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commons_device_info_item_height"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp16"
+                android:paddingRight="@dimen/dp16">
+
+                <ImageView
+                    android:id="@+id/image11"
+                    android:layout_width="@dimen/commons_device_info_size"
+                    android:layout_height="@dimen/commons_device_info_size"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/infomation_folder_2" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp12"
+                    android:layout_marginRight="@dimen/dp12"
+                    android:layout_toLeftOf="@+id/txtAvaiStorage"
+                    android:layout_toRightOf="@+id/image11"
+                    android:text="@string/commons_device_info_avai_storage"
+                    android:textColor="@color/commons_device_infotext"
+                    android:textSize="@dimen/textsize_20" />
+
+                <com.appplatform.commons.views.AppPlatFormTextView
+                    android:id="@+id/txtAvaiStorage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/textsize_18" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

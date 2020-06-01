@@ -1,0 +1,24 @@
+<resources>
+    <string name="commons_empty_text">没有数据</string>
+    <string name="ignore_list_toast_add">添加到忽略列表中</string>
+    <string name="ignore_list_toast_remove">从忽略列表中删除</string>
+    <string name="menu_search">搜索；检索；搜寻；查找;搜查</string>
+    <string name="activity_ignorelist_title">忽略列表</string>
+    <string name="commons_device_info">设备信息</string>
+    <string name="commons_device_info_phone">电话</string>
+    <string name="commons_device_info_serial">串行</string>
+    <string name="commons_device_info_brand">名牌</string>
+    <string name="commons_device_info_cpu">CPU 温度</string>
+    <string name="commons_device_info_hardware">硬件</string>
+    <string name="commons_device_info_screen">屏幕分辨率</string>
+    <string name="commons_device_info_capacity">容量</string>
+    <string name="commons_device_info_ram">总 RAM</string>
+    <string name="commons_device_info_avai_ram">可用 RAM</string>
+    <string name="commons_device_info_storage">内部存储</string>
+    <string name="commons_device_info_avai_storage">可用存储</string>
+    <string name="commons_permission_request_desc">"由于来自 Android 8 的权限限制, 我们需要您授予应用程序使用权限才能正常工作。我们只使用此权限来列出正在运行的任务。请找到我们的应用程序启用它。</string>
+    <string name="commons_permission_request_title">权限提示</string>
+    <string name="commons_permission_request_ok">还行</string>
+    <string name="commons_permission_request_got_it">明白</string>
+    <string name="commons_no_app_found">找不到应用程序</string>
+</resources>

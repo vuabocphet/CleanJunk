@@ -1,0 +1,24 @@
+<resources>
+    <string name="commons_empty_text">Não há dados</string>
+    <string name="ignore_list_toast_add">Adicionado para ignorar a lista</string>
+    <string name="ignore_list_toast_remove">Removido da lista de ignorados</string>
+    <string name="menu_search">Pesquisar</string>
+    <string name="activity_ignorelist_title">Ignorar a lista</string>
+    <string name="commons_device_info">Dispositivo de informação</string>
+    <string name="commons_device_info_phone">Número de telefone</string>
+    <string name="commons_device_info_serial">Seriais</string>
+    <string name="commons_device_info_brand">Marca</string>
+    <string name="commons_device_info_cpu">Temperatura da CPU</string>
+    <string name="commons_device_info_hardware">Ferragem</string>
+    <string name="commons_device_info_screen">Resolução da tela</string>
+    <string name="commons_device_info_capacity">Capacidade</string>
+    <string name="commons_device_info_ram">Total de RAM</string>
+    <string name="commons_device_info_avai_ram">Memória RAM disponível</string>
+    <string name="commons_device_info_storage">Armazenamento interno</string>
+    <string name="commons_device_info_avai_storage">Armazenamento disponível</string>
+    <string name="commons_permission_request_desc">"Por causa da restrição de permissão de 8 Android, precisa de você conceder permissão de uso de App funcionar bem.Só usamos essa permissão para executar tarefas de listagem. Por favor, encontrar nosso app para habilitá-lo."</string>
+    <string name="commons_permission_request_title">Dicas de permissão</string>
+    <string name="commons_permission_request_ok">Okey</string>
+    <string name="commons_permission_request_got_it">Peguei</string>
+    <string name="commons_no_app_found">Nenhum aplicativo encontrado</string>
+</resources>

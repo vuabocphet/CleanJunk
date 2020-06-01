@@ -1,0 +1,24 @@
+<resources>
+    <string name="commons_empty_text">Nie danych</string>
+    <string name="ignore_list_toast_add">Dodany do listy ignorowanych</string>
+    <string name="ignore_list_toast_remove">Usunięte z listy ignorowanych</string>
+    <string name="menu_search">Szukaj</string>
+    <string name="activity_ignorelist_title">Ignoruj listy</string>
+    <string name="commons_device_info">Informacje o urządzeniu</string>
+    <string name="commons_device_info_phone">Telefon</string>
+    <string name="commons_device_info_serial">Powieść w odcinkach</string>
+    <string name="commons_device_info_brand">Marki</string>
+    <string name="commons_device_info_cpu">Temperatura procesora</string>
+    <string name="commons_device_info_hardware">Sprzętu</string>
+    <string name="commons_device_info_screen">Rozdzielczość ekranu</string>
+    <string name="commons_device_info_capacity">Pojemność</string>
+    <string name="commons_device_info_ram">Całkowita pamięć RAM</string>
+    <string name="commons_device_info_avai_ram">Dostępnej pamięci RAM</string>
+    <string name="commons_device_info_storage">Wewnętrznej pamięci masowej</string>
+    <string name="commons_device_info_avai_storage">Dostępna pamięć</string>
+    <string name="commons_permission_request_desc">"Ze względu na ograniczenie uprawnień od Android 8, mamy potrzeby możesz udzielić uprawnienia użycie aplikacji do pracy dobrze.Używamy tylko to uprawnienie dla aukcji uruchomionych zadań. Proszę znaleźć naszą aplikację, aby ją włączyć."</string>
+    <string name="commons_permission_request_title">Wskazówki dotyczące uprawnień</string>
+    <string name="commons_permission_request_ok">Ok</string>
+    <string name="commons_permission_request_got_it">Mam</string>
+    <string name="commons_no_app_found">Nie znaleziono aplikacji</string>
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="commons_empty_text">Không có dữ liệu</string>
+    <string name="ignore_list_toast_add">Thêm vào danh sách bỏ qua</string>
+    <string name="ignore_list_toast_remove">Loại bỏ khỏi danh sách bỏ qua</string>
+    <string name="menu_search">Tìm kiếm</string>
+    <string name="activity_ignorelist_title">Danh sách bỏ qua</string>
+    <string name="commons_device_info">Thông tin thiết bị</string>
+    <string name="commons_device_info_phone">Điện thoại</string>
+    <string name="commons_device_info_serial">Serial</string>
+    <string name="commons_device_info_brand">Thương hiệu</string>
+    <string name="commons_device_info_cpu">Nhiệt độ CPU</string>
+    <string name="commons_device_info_hardware">Phần cứng</string>
+    <string name="commons_device_info_screen">Độ phân giải màn hình</string>
+    <string name="commons_device_info_capacity">Dung lượng pin</string>
+    <string name="commons_device_info_ram">Tổng số RAM</string>
+    <string name="commons_device_info_avai_ram">RAM khả dụng</string>
+    <string name="commons_device_info_storage">Bộ nhớ trong</string>
+    <string name="commons_device_info_avai_storage">Bộ nhớ khả dụng</string>
+    <string name="commons_permission_request_desc">"Do việc hạn chế từ hệ điều hành Android 8, chúng tôi cần bạn cấp quyền ứng dụng để nó hoạt động tốt hơn. Chúng tôi chỉ sử dụng quyền này cho để lấy các ứng dụng gây hại cho điện thoại của bạn. Xin vui lòng cấp quyền cho chúng tôi.Chúng tôi xin cảm ơn!"</string>
+    <string name="commons_permission_request_title">Lời khuyên cho phép</string>
+    <string name="commons_permission_request_ok">Ok</string>
+    <string name="commons_permission_request_got_it">Đã hiểu</string>
+    <string name="commons_no_app_found">Không tìm thấy ứng dụng</string>
+</resources>

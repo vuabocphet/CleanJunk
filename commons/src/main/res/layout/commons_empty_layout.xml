@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/commons_empty_background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/commons_empty_icon"
+        android:layout_width="@dimen/ignore_size_icon_empty"
+        android:layout_height="@dimen/ignore_size_icon_empty"
+        android:src="@drawable/commons_empty_icon" />
+
+    <com.appplatform.commons.views.AppPlatFormTextView
+        android:id="@+id/commons_empty_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp16"
+        android:gravity="center"
+        android:text="@string/commons_empty_text"
+        android:textColor="@color/commons_empty_text_color"
+        android:textSize="@dimen/textsize_22" />
+</LinearLayout>

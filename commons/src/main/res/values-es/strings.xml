@@ -1,0 +1,24 @@
+<resources>
+    <string name="commons_empty_text">No hay datos</string>
+    <string name="ignore_list_toast_add">Agregó ignorar lista</string>
+    <string name="ignore_list_toast_remove">Quitar de lista de Ignore</string>
+    <string name="menu_search">Búsqueda</string>
+    <string name="activity_ignorelist_title">Ignorar la lista</string>
+    <string name="commons_device_info">Device Info</string>
+    <string name="commons_device_info_phone">Teléfono</string>
+    <string name="commons_device_info_serial">Serie</string>
+    <string name="commons_device_info_brand">Marca</string>
+    <string name="commons_device_info_cpu">Temperatura de la CPU</string>
+    <string name="commons_device_info_hardware">Herrajes</string>
+    <string name="commons_device_info_screen">Resolución de pantalla</string>
+    <string name="commons_device_info_capacity">Capacidad</string>
+    <string name="commons_device_info_ram">RAM total</string>
+    <string name="commons_device_info_avai_ram">Memoria RAM disponible</string>
+    <string name="commons_device_info_storage">Almacenamiento interno</string>
+    <string name="commons_device_info_avai_storage">Almacenamiento disponible</string>
+    <string name="commons_permission_request_desc">"Debido a la restricción de permisos de Android 8, necesita permiso de uso de la aplicación que funciona bien.Sólo utilizamos este permiso para ejecutar tareas de lista. Encontrará nuestra aplicación para activarlo".</string>
+    <string name="commons_permission_request_title">Consejos de permiso</string>
+    <string name="commons_permission_request_ok">Órale</string>
+    <string name="commons_permission_request_got_it">La tengo</string>
+    <string name="commons_no_app_found">No se encontró ninguna aplicación</string>
+</resources>

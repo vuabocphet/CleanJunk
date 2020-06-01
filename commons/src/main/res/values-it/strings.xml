@@ -1,0 +1,24 @@
+<resources>
+    <string name="commons_empty_text">Nessun dato</string>
+    <string name="ignore_list_toast_add">Aggiunto per ignorare elenco</string>
+    <string name="ignore_list_toast_remove">Rimosso dalla lista ignora</string>
+    <string name="menu_search">Cerca</string>
+    <string name="activity_ignorelist_title">Ignora lista</string>
+    <string name="commons_device_info">Device Info</string>
+    <string name="commons_device_info_phone">Telefono</string>
+    <string name="commons_device_info_serial">Numero di serie</string>
+    <string name="commons_device_info_brand">Marca</string>
+    <string name="commons_device_info_cpu">Temperatura della CPU</string>
+    <string name="commons_device_info_hardware">Hardware</string>
+    <string name="commons_device_info_screen">Risoluzione dello schermo</string>
+    <string name="commons_device_info_capacity">Capacità</string>
+    <string name="commons_device_info_ram">RAM totale</string>
+    <string name="commons_device_info_avai_ram">Memoria RAM disponibile</string>
+    <string name="commons_device_info_storage">Archiviazione interna</string>
+    <string name="commons_device_info_avai_storage">Spazio di archiviazione disponibile</string>
+    <string name="commons_permission_request_desc">"A causa della limitazione dell'autorizzazione da Android 8, abbiamo necessità si concedere l'autorizzazione di utilizzo App per funzionare bene.Usiamo solo questa autorizzazione per elenco attività in esecuzione. Si prega di trovare il nostro app per attivarlo."</string>
+    <string name="commons_permission_request_title">Consigli di autorizzazione</string>
+    <string name="commons_permission_request_ok">Ok</string>
+    <string name="commons_permission_request_got_it">Capito</string>
+    <string name="commons_no_app_found">Tidak ada aplikasi</string>
+</resources>

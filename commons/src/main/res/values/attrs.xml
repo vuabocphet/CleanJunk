@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FloatingActionButton">
+        <attr name="commons_fab_colorNormal" format="color" />
+        <attr name="commons_fab_colorPressed" format="color" />
+        <attr name="commons_fab_colorDisabled" format="color" />
+        <attr name="commons_fab_colorRipple" format="color" />
+        <attr name="commons_fab_showShadow" format="boolean" />
+        <attr name="commons_fab_shadowColor" format="color" />
+        <attr name="commons_fab_shadowRadius" format="dimension" />
+        <attr name="commons_fab_shadowXOffset" format="dimension" />
+        <attr name="commons_fab_shadowYOffset" format="dimension" />
+        <attr name="commons_fab_size" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+        </attr>
+        <attr name="commons_fab_showAnimation" format="reference" />
+        <attr name="commons_fab_hideAnimation" format="reference" />
+        <attr name="commons_fab_label" format="string" />
+        <attr name="commons_fab_elevationCompat" format="dimension" />
+        <attr name="commons_fab_progress_color" format="color" />
+        <attr name="commons_fab_progress_backgroundColor" format="color" />
+        <attr name="commons_fab_progress_indeterminate" format="boolean" />
+        <attr name="commons_fab_progress_max" format="integer" />
+        <attr name="commons_fab_progress" format="integer" />
+        <attr name="commons_fab_progress_showBackground" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CompleteMarkView">
+        <attr name="commons_circle_color" format="color" />
+        <attr name="commons_icon_mark" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="AppPlatFormTextView">
+        <attr name="textStyle" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="title" value="1" />
+        </attr>
+        <attr name="selected" format="boolean" />
+    </declare-styleable>
+</resources>

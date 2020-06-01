@@ -1,0 +1,24 @@
+<resources>
+    <string name="commons_empty_text">Немає даних</string>
+    <string name="ignore_list_toast_add">Додано до листа ігнорування</string>
+    <string name="ignore_list_toast_remove">Видалено зі списку ігнорувати</string>
+    <string name="menu_search">Пошук</string>
+    <string name="activity_ignorelist_title">Чорний список</string>
+    <string name="commons_device_info">Пристрій інформація</string>
+    <string name="commons_device_info_phone">Телефон</string>
+    <string name="commons_device_info_serial">Послідовний</string>
+    <string name="commons_device_info_brand">Бренд</string>
+    <string name="commons_device_info_cpu">Температуру процесора</string>
+    <string name="commons_device_info_hardware">Устаткування</string>
+    <string name="commons_device_info_screen">Роздільна здатність екрана</string>
+    <string name="commons_device_info_capacity">Ємність</string>
+    <string name="commons_device_info_ram">Загальна оперативної пам\'яті</string>
+    <string name="commons_device_info_avai_ram">Доступної оперативної пам\'яті</string>
+    <string name="commons_device_info_storage">Внутрішньої пам\'яті</string>
+    <string name="commons_device_info_avai_storage">Обсяг вільного</string>
+    <string name="commons_permission_request_desc">"Через обмеження дозволів від Android 8, ми має потребу в вас надати дозвіл App використання добре працює.Ми використовуємо тільки цей дозвіл для входження запущені завдання. Ви знайдете наш додаток, щоб він."</string>
+    <string name="commons_permission_request_title">Дозвіл поради</string>
+    <string name="commons_permission_request_ok">Гаразд</string>
+    <string name="commons_permission_request_got_it">Зрозуміло</string>
+    <string name="commons_no_app_found">Застосунку не знайдено</string>
+</resources>
